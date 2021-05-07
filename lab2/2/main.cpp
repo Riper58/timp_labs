@@ -52,7 +52,7 @@ int main(int argc, char **argv)
     wstring_convert<std::codecvt_utf8<wchar_t>, wchar_t> codec;
     unsigned mode_program;
     do {
-        wcout<<L"Интерфейс (1) или тест программы (2)? Выход (0). Ввод:";
+        wcout<<L"Интерфейс - 1 | Тест программы - 2 | Выход - 0 | Ввод: ";
         wcin>>mode_program;
         if (mode_program == 1) {
             interface_program();
