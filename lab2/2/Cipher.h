@@ -16,7 +16,6 @@ public:
     std::wstring encrypt( std::wstring& ws_open_text);
     std::wstring decrypt(const std::wstring& ws_cipher_text);
     void set_tableform(const std::wstring& ws_text);
-    void set_key(std::wstring & ws_key);
     int getValidKey(std::wstring& ws_key);
     std::wstring getValidOpenText(const std::wstring & ws_open_text);
     std::wstring getValidCipherText(const std::wstring & ws_cipher_text);
