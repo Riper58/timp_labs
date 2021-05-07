@@ -3,10 +3,6 @@ Cipher::Cipher(std::wstring & ws_key)
 {
     columns = getValidKey(ws_key);
 }
-void Cipher::set_key(std::wstring & ws_key)
-{
-    columns = getValidKey(ws_key);
-}
 void Cipher::set_tableform(const std::wstring& open_text)
 {
     len_text = open_text.size();
